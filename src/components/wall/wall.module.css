@@ -1,0 +1,32 @@
+.wallContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+
+.wallContainer > div:first-child {
+  width: 100px;
+  height: 100px;
+}
+
+.card > img {
+  max-width: 645px;
+  min-width: 200px; 
+}
+
+.card > img {
+  max-height: 520px;
+}
+
+.wallContainer > div:nth-child(2),
+.wallContainer > div:nth-child(3),
+.card > img {
+  max-width: 645px;
+  min-width: 200px;
+}
+
+.wallContainer > div:nth-child(2) {
+  margin-top: 6px;
+}

@@ -1,0 +1,22 @@
+.title {
+  flex-grow: 1;
+}
+
+.root {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin-right: 10px; 
+}
+
+.avatar {
+  width: 25px;
+  height: 25px;
+  margin-left: 7px;
+}
+
+.iconmenu {
+  margin-right: 7px;
+}
